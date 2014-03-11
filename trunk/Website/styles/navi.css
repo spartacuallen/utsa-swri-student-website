@@ -7,40 +7,75 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 */
 
 #topnav{
-	display:block;
-	width:960px;
-	margin:0;
-	padding:0 0 12px 0;
+	padding:0 0 12px 30px;
+	list-style:none;
 	background:url("../images/round_bot.gif") bottom left no-repeat;
+	height:15px;
+	width:960px;
+	margin:0 auto;
+	}
+
+#topnav ul{
+	padding:0;
+	margin:0;
+	list-style:none;
 	text-align:center;
 	}
 
-#topnav, #topnav a{
-	text-transform:uppercase;
-	color:#06213F;
-	background-color:#F9F9F9;
-	}
-
-#topnav a:hover, #topnav li.active a{
-	color:#55ABDA;
-	background-color:#F9F9F9;
-	}
-
-#topnav ul, #topnav li{
-	margin:0;
+#topnav ul li{
 	padding:0;
+	float:left;
+	position:relative;
+}
+
+#topnav ul li a{
+	width:162px;
+	display:block;
+	padding: 0px 12px;
+	color:#06213F;
+	background:#F9F9F9;
+	text-decoration:none;
+	}
+
+#topnav ul li a:hover{
+	color:#55ABDA;
+	text-decoration:none;
+}
+
+#topnav ul li ul{
 	list-style:none;
+	display:none;
+	position:absolute;	
+	background:#F9F9F9;
+	padding:10px 0 10px 0;
 	}
 
-#topnav li{
-	display:inline;
-	margin-right:30px;
-	}
-
-#topnav li.last{
+#topnav ul li ul li{
+	float:none;
+	padding:10px 0 10px 0;
 	margin:0;
-	}
+	color:#06213F;
+	background:#F9F9F9;
+	text-decoration:none;
+	z-index:100;
+}
 
+#topnav ul li ul li a{
+	width:162px;
+	color:#06213F;
+	text-decoration:none;
+}
+
+#topnav ul li:hover > ul{
+	display:block;
+}
+	
+	
+/*#topnav ul li:hover ul{
+	position: absolute;
+	display: block;
+	}*/
+	
 /* ----------------------------------------------Column Navigation-------------------------------------*/
 
 #column .subnav{
