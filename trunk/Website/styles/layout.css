@@ -34,6 +34,7 @@ img{margin:0; padding:0; border:none;}
 .clear{display:inline-block;}
 html[xmlns] .clear{display:block;}
 * html .clear{height:1%;}
+html {overflow-y: scroll;}
 
 a{outline:none; text-decoration:none; color:#55ABDA; background-color:#F9F9F9;}
 
