@@ -46,6 +46,8 @@ a{outline:none; text-decoration:none; color:#55ABDA; background-color:#F9F9F9;}
 .imgl{float:left; margin:0 15px 15px 0; clear:left;}
 .imgr{float:right; margin:0 0 15px 15px; clear:right;}
 
+.faqcontent{display: hidden;}
+
 /* ----------------------------------------------Wrapper-------------------------------------*/
 
 div.wrapper{
@@ -64,7 +66,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5{
 	line-height:normal;
 	}
 
-h6{
+/*h6{
 	cursor:pointer;
 	margin:0;
 	padding:0;
@@ -73,7 +75,7 @@ h6{
 	color:#06213F;
 	background-color:#FCFCFC;
 	text-decoration:none;
-	}
+	}*/
 
 .row1{color:#999999; background-color:#06213F;}
 .row1 a{color:#FCFCFC; background-color:#06213F;}
