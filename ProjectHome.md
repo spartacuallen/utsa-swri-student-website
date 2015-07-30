@@ -1,0 +1,1 @@
+This is the central access point for the edits made to the student website. The admin and users will submit code that needs to be or is currently uploaded to the gradtst.space.swri.edu website. The latest version will be compiled and made live on the test site as it becomes available.
